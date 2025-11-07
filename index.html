@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reiknivél Alexanders</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="reiknivel">
-        <div class="takkar">
+        <input id="display" readonly>
+        <div class="buttons">
             <button onclick="apppendToDisplay('7')">7</button>
             <button onclick="apppendToDisplay('8')">8</button>
             <button onclick="apppendToDisplay('9')">9</button>
-            <button onclick="apppendToDisplay('/')">/</button>
+            <button onclick="apppendToDisplay('/')" class="operator">/</button>
             <button onclick="apppendToDisplay('4')">4</button>
             <button onclick="apppendToDisplay('5')">5</button>
             <button onclick="apppendToDisplay('6')">6</button>
-            <button onclick="apppendToDisplay('*')">*</button>
+            <button onclick="apppendToDisplay('*')" class="operator">*</button>
             <button onclick="apppendToDisplay('1')">1</button>
             <button onclick="apppendToDisplay('2')">2</button>
             <button onclick="apppendToDisplay('3')">3</button>
-            <button onclick="apppendToDisplay('-')">-</button>
+            <button onclick="apppendToDisplay('-')" class="operator">-</button>
             <button onclick="apppendToDisplay('0')">0</button>
-            <button onclick="apppendToDisplay('C')">Hreinsa</button>
-            <button onclick="apppendToDisplay('+')">+</button>
-            <button onclick="apppendToDisplay('=')">=</button>
+            <button onclick="apppendToDisplay('C')" class="operator">Hreinsa</button>
+            <button onclick="apppendToDisplay('+')" class="operator">+</button>
+            <button onclick="apppendToDisplay('=')" class="operator">=</button>
 
         
         </div>
