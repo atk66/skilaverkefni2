@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="reiknivel">
-        <input id="display" readonly>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
         <div class="buttons">
             <button onclick="appendValue('7')">7</button>
             <button onclick="appendValue('8')">8</button>
@@ -23,7 +23,7 @@
             <button onclick="appendValue('3')">3</button>
             <button onclick="appendValue('-')" class="operator">-</button>
             <button onclick="appendValue('0')">0</button>
-            <button onclick="appendValue('C')" class="operator">Hreinsa</button>
+            <button onclick="clearDisplay('C')" class="clear">Hreinsa</button>
             <button onclick="appendValue('+')" class="operator">+</button>
             <button onclick="calculate('=')" class="equals">=</button>
 
