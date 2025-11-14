@@ -1,11 +1,11 @@
-const display = getElementById('display');
+const display = document.getElementById('display');
 
 function appendValue(value) {
     display.value += value;
 
 }
 
-function clerDisplay() {
+function clearDisplay() {
     display.value = '';
 
 }
